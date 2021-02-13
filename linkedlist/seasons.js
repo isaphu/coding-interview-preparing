@@ -32,5 +32,7 @@ daysOfTheWeek.addToTail([
 ]);
 daysOfTheWeek.printList()
 
+daysOfTheWeek.removeHead();
+daysOfTheWeek.printList();
 
 module.exports = new LinkedList()
