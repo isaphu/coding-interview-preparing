@@ -1,2 +1,2 @@
-const LinkedList = require('./seasons.js');
+const LinkedList = require('./linkedlist/seasons.js');
 
