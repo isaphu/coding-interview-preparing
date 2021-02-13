@@ -14,4 +14,23 @@ seasons.printList();
 seasons.removeHead();
 seasons.printList();
 
+const daysOfTheWeek = new LinkedList();
+
+daysOfTheWeek.addToHead([
+  'Monday ',
+  'Tuesday ',
+  'Wednesday ',
+  'Thursday ',
+  ''
+]);
+daysOfTheWeek.printList()
+
+daysOfTheWeek.addToTail([
+  'Friday ',
+  'Saturday ',
+  'Sunday '
+]);
+daysOfTheWeek.printList()
+
+
 module.exports = new LinkedList()
