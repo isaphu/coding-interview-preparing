@@ -36,6 +36,12 @@ class LinkedList {
     return removedHead.data;
   }
 
+  printList() {
+    let currentNode = this.head;
+    let output = '<head> ';
+    console.log(output);
+  }
+
 }
 
 module.exports = LinkedList;
